@@ -1,2 +1,2 @@
 # garrafa_css
-Garrafa simples, feita em css3
+Garrafa simples, feita em HTML5 e CSS3
