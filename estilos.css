@@ -1,0 +1,62 @@
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.container {
+    width: 400px;
+    height: 500px;
+    margin-top: 5%;
+    border-radius: 7px;
+}
+
+.corpo {
+    width: 150px;
+    height: 300px;
+    border: 1px solid rgb(101, 213, 228);
+    margin: auto;
+    border-radius: 8px;
+    background-color: rgb(138, 241, 255);
+}
+
+.meio {
+    width: 140px;
+    height: 10px;
+    background-color: rgb(37, 37, 37);
+    margin: auto;
+    border-radius: 2px;
+}
+
+.tampa {
+    width: 150px;
+    height: 30px;
+    border: 1px solid rgb(101, 213, 228);
+    margin: auto;
+    margin-top: 140px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgb(138, 241, 255);
+}
+
+.pegador {
+    position: absolute;
+    width: 80px;
+    height: 60px;
+    border: 1px solid rgb(43, 43, 43);
+    margin-top: -380px;
+    margin-left: 220px;
+    z-index: -10;
+    border-radius: 15px 50px 15px 0px;
+    background-color: rgb(43, 43, 43);
+}
+
+.texto {
+    position: absolute;
+    transform: rotate(270deg);
+    margin-left: 150px;
+    font-weight: bolder;
+    color: white;
+    margin-top: -140px;
+}
